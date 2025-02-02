@@ -1,0 +1,6 @@
+{
+  "text": {
+    "yourName": "Your name is {{ name }}"
+  },
+  "changeLang": "Change language"
+}

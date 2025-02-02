@@ -1,0 +1,7 @@
+{
+  "text": {
+    "hello": "Hola somos amigos",
+    "yourName": "Tu nombre es {{ name }}"
+  },
+  "changeLang": "Cambiar idioma"
+}
