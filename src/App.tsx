@@ -22,8 +22,6 @@ function App() {
 
   console.log(i18n.store.data);
 
-  t("hello"); // Hello my friend
-
   return (
     <div>
       <h1>{t("text.hello")}</h1>
@@ -32,7 +30,7 @@ function App() {
 
       <button onClick={handleChangeLanguage}>{t("changeLang")}</button>
       <button onClick={() => setShowAbout((prev) => !prev)}>
-        Show about page
+        Show about page {/* Попробуй сам добавить перевод :) */}
       </button>
     </div>
   );
